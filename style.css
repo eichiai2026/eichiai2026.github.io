@@ -126,6 +126,11 @@ h1 {
   grid-template-columns: 150px 1fr auto;
   align-items: center;
   gap: 36px;
+  transition: opacity 160ms ease;
+}
+
+.app-item:hover {
+  opacity: 0.68;
 }
 
 .app-icon {
@@ -135,8 +140,8 @@ h1 {
   place-items: center;
   border-radius: 30px;
   background: var(--accent);
-  font-size: 3.6rem;
-  font-weight: 300;
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 .app-status {
